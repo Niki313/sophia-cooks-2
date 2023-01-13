@@ -20,13 +20,13 @@
         width: 230px;
         height: auto;
         float: left;
-        margin: 5px 0 0 150px;
+        margin: 5px 0 0 50px;
     }
     .menu-item{
         padding-top: 60px;
     }
   #active-link{
-    color: var(--third-color);
+    color: var(--fourth-color);
     text-decoration: underline;
   }
   .menu a{
@@ -37,6 +37,6 @@
   }
   
   .menu a:hover{
-    color: var(--third-color);
+    color: var(--fourth-color);
   }
   

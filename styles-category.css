@@ -13,8 +13,25 @@
 .content-category{
 background-color: var(--fifth-color);
 text-align: center;
-padding: 100px 50px;
+padding: 20px 50px 50px 50px;
 }
+
+.path{
+    text-align: left;
+    margin: 0 0 50px 0;
+}
+.path a{
+    font-family: var(--second-font-family);
+    color: var(--second-color);
+    text-decoration: none;
+}
+.path a:hover{
+    color: var(--fourth-color);
+}
+#active-path{
+    color: var(--fourth-color);
+}
+
 .content-header{
     margin-bottom: 50px;
 }
@@ -125,6 +142,6 @@ ul li:hover{
     width: 350px;
     /* margin-top: 20px; */
     position: absolute;
-    top: 240%;
+    top: 225%;
     left:-15%;
   }
