@@ -47,11 +47,12 @@ body{
   color: var(--first-color);
   text-decoration: none;
   border-radius: 10px;
-  margin: 200px 150px;
+  margin: 200px 148px;
   border: none;
   cursor: pointer;
   position: absolute;
   top: 430px;
+  left: -95px;
 }
 .button:hover{
   background: transparent;
