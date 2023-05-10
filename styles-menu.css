@@ -8,6 +8,20 @@
     --second-font-family: "DM Sans";
   }
   
+  @media (max-width:700px){
+    .menu{
+      height: 70px;
+      padding: 0 10px 0 0px;
+      margin: 0 auto;
+      text-align: center;
+      
+    }
+    .logo{
+        width: 50px;
+        margin: 0 auto;
+        
+    }
+  }
  
   .menu{
       height: 110px;
