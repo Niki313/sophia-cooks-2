@@ -11,128 +11,95 @@
 
 
   @media (max-width:700px){
-    .content-category{
-        padding: 10px 10px 10px 10px;
+        .content-category{
+            padding: 0.63em 0.63em;
         }
-        
         .path{
-            margin: 0 0 20px 0;
+            margin: 0 0 1.25em 0;
         }
-        
         .content-header{
-            margin-bottom: 30px;
+            margin-bottom: 1.88em;
         }
         .content-header img{
-        width: 50px;
-        height: 13px;
+            width: 3.13em;
+            height: 0.81em;
         }
-        
-        
         ul li{
-            margin: 20px 5px;
+            margin: 1.25em 0.31em;
         }
-        
         ul li a{
-            font-size: 14px;
-            
+            font-size: 0.88em;
         }
-        
         .pages ul #active-page{
-            padding: 5px 10px;
+            padding: 0.31em 0.63em;
         }
-        
-              
-        
         .container-dishes .row{
-            margin-bottom: 20px;
-            }
-         
-            .container-img .name-of-the-dish{
-                margin-top: 10px ;
-               font-size: 14px;
-            }
-            
-            .img-category{
-                height: 150px;
-            }
-            
-            .img-category img{
-                height: 150px;
-            }
-            
-          /* листья салата в р-не футтера */
-          .decoration-2 img{
-            width: 150px;
-          }
-
+            margin-bottom: 1.25em;
+        }
+        .container-img .name-of-the-dish{
+            margin-top: 0.63em;
+            font-size: 0.88em;
+        }
+        .img-category{
+            height: 9.38em;
+        }
+        .img-category img{
+            height: 9.38em;
+        }
+        .decoration-2 img{
+            width: 9.38em;
+        }
   }
   @media (min-width:701px) and (max-width:915px){
-
-    .content-category{
-        padding: 20px 20px;
+        .content-category{
+            padding: 1.25em 1.25em;
         }
-        
         .path{
-            margin: 0 0 30px 0;
+            margin: 0 0 1.88em 0;
         }
-        
         .content-header{
-            margin-bottom: 50px;
+            margin-bottom: 3.13em;
         }
         .content-header img{
-        width: 100px;
-        height: 26px;
+            width: 6.25em;
+            height: 1.63em;
         }
-        
-        
-        
         ul li{
-            margin: 20px 15px;
+            margin: 1.25em 0.94em;
         }
-        
         ul li a{
-            font-size: 16px;
-            
+            font-size: 1em;
         }
-        
         .pages ul #active-page{
-            padding: 10px 15px;
+            padding: 0.63 0.94em;
         }
-        
-              
-        
         .container-dishes .row{
-            margin-bottom: 30px;
-            }
-         
-            .container-img .name-of-the-dish{
-                margin-top: 20px ;
-               font-size: 16px;
-            }
-            
-            .img-category{
-                height: 250px;
-            }
-            
-            .img-category img{
-                height: 250px;
-            }
-            
-          /* листья салата в р-не футтера */
-          .decoration-2 img{
-            width: 250px;
-      
-          }
+            margin-bottom: 1.88em;
+        }
+        .container-img .name-of-the-dish{
+            margin-top: 1.25em;
+            font-size: 1em;
+        }
+        .img-category{
+            height: 15.63em;
+        }
+        .img-category img{
+            height: 15.63em;
+        }
+        /* листья салата в р-не футтера */
+        .decoration-2 img{
+        width: 15.63em;
+        }
   }
-.content-category{
-background-color: var(--fifth-color);
-text-align: center;
-padding: 20px 50px 50px 50px;
-}
 
+.content-category{
+    background-color: var(--fifth-color);
+    text-align: center;
+    padding: 1.25em 3.13em 3.13em 3.13em;
+}
 .path{
     text-align: left;
-    margin: 0 0 50px 0;
+    margin: 0 0 3.13em 0;
 }
 .path a{
     font-family: var(--second-font-family);
@@ -145,69 +112,48 @@ padding: 20px 50px 50px 50px;
 #active-path{
     color: var(--fourth-color);
 }
-
 .content-header{
-    margin-bottom: 50px;
+    margin-bottom: 3.13em;
 }
 .content-header img{
-width: 200px;
-height: 50px;
-margin: 0 0;
+    width: 12.50em;
+    height: 3.13em;
+    margin: 0 0;
 }
-
 .content-category  .content-header h1{
-    
     font-family: var(--second-font-family);
     font-weight: bold;
     line-height: 0.3;
     margin: 0 0;
-
 }
 .pages .pagination{
     text-align: right;
     align-items: right;
-    margin: 0 0 0 82%;
+    margin: 0 0 0 77.90em;
 }
-
 ul li{
-    border-radius: 10px;
-    padding: 5px 15px;
-    margin: 50px 5px;
+    border-radius: 0.63em;
+    padding: 0.31em 0.94em;
+    margin: 3.13em 0.31em;
     background-color: var(--first-color);
 }
 
 ul li a{
     text-decoration: none;
     font-family: var(--first-font-family);
-    font-size: 18px;
+    font-size: 1.13em;
     color: var(--third-color);
-    
 }
-
 .pages ul #active-page{
     background-color: var(--fourth-color);
-    border-radius: 10px;
-    padding: 5px 15px;
+    border-radius: 0.63em;
+    padding: 0.31em 0.94em;
 }
 ul li:hover{
     background-color: #FE5000;
-    
 }
-
-
-
-
-
-
-/* .container-img:hover{
-    color: var(--fourth-color);
-} */
-
-
-
-
 .container-dishes .row{
-    margin-bottom: 50px;
+    margin-bottom: 3.13em;
     text-align: center;
     }
     .container-img{
@@ -218,44 +164,27 @@ ul li:hover{
         color: var(--third-color);
         text-decoration: none;
     }
-    
     .container-img .name-of-the-dish{
-        margin-top: 30px ;
-       font-size: 18px;
+        margin-top: 1.88em ;
+        font-size: 1.13em;
     }
-    
-    /* .container-img a .name-of-the-dish {
-        color: var(--third-color);
-         font-family: var(--first-font-family);
-        font-size: 16px;
-    } */
     .container-img a:hover {
         color: var(--fourth-color);
     }
     .img-category{
-        border-radius: 10px;
+        border-radius: 0.63em;
         overflow:hidden;
-        height: 350px;
+        height: 21.88em;
     }
-    
     .img-category img{
-        border-radius: 10px;
-        height: 350px;
+        border-radius: 0.63em;
+        height: 21.88em;
         align-items: center;
     }
-    
-    /* .container-dish-name{
-        /* display: flex; */
-        /* flex-wrap: wrap; 
-      justify-content: center;
-    } */
-
-
-  /* томат в р-не футтера */
-  .decoration-2 img{
-    width: 350px;
-    /* margin-top: 20px; */
-    position: absolute;
-    top: 230%;
-    left:-15%;
+    /* томат в р-не футтера */
+    .decoration-2 img{
+        width: 21.88em;
+        position: absolute;
+        top: 230%;
+        left:-15%;
   }

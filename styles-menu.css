@@ -8,18 +8,16 @@
     --second-font-family: "DM Sans";
   }
   
-  @media (max-width:700px){
+  /* @media (max-width:700px){
     .menu{
       height: 70px;
       padding: 0 10px 0 0px;
       margin: 0 auto;
       text-align: center;
-      
     }
     .logo{
         width: 50px;
         margin: 0 auto;
-        
     }
     .menu-item{
       padding-top: 20px;
@@ -34,12 +32,10 @@
       padding: 0 15px 0 0px;
       margin: 0 auto;
       text-align: center;
-      
     }
     .logo{
         width: 90px;
         margin: 0 auto;
-        
     }
     .menu-item{
       padding-top: 30px;
@@ -47,12 +43,10 @@
 .menu a{
   font-size: 20px;
 }
-
   }
   .menu{
       height: 110px;
       padding: 0 20px 0 0px;
-      
       text-align: center;
       background-color: var(--first-color);
     }
@@ -75,8 +69,68 @@
     text-decoration: none;
     color: var(--second-color);
   }
-  
   .menu a:hover{
     color: var(--fourth-color);
   }
+   */
+
+
+@media (max-width:700px){
+        .menu{
+          height: 4.38em;
+          padding: 0 0.63em 0 0;
+        }
+        .logo{
+          width: 3.13em;
+        }
+        .menu-item{
+          padding-top: 1.25em;
+        }
+        .menu a{
+          font-size: 0.88em;
+        }
+  }
+          @media (min-width:701px) and (max-width:915px){
+                  .menu{
+                    height: 5.63em;
+                    padding: 0 0.94em 0 0;
+                  }
+                  .logo{
+                    width: 5.63em;
+                  }
+                  .menu-item{
+                    padding-top: 1.88em;
+                  }
+                  .menu a{
+                    font-size: 1.25em;
+                  }
+          }
+.menu{
+  height: 8em;
+  padding: 0 1.25em 0 0;
+  text-align: center;
+  background-color: var(--first-color);
+}
+.logo{
+  width: 14.38em;
+  height: auto;
+  float: left;
+  margin: 0.31em 0 0 3.13em;  /*!*/
+}
+.menu-item{
+  padding-top: 3.75em;
+}
+#active-link{
+  color: var(--fourth-color);
+  text-decoration: underline;
+}
+.menu a{
+  font-size: 1.13em;
+  font-family: var(--second-font-family);
+  text-decoration: none;
+  color: var(--second-color);
+}
+.menu a:hover{
+  color: var(--fourth-color);
+}
   
