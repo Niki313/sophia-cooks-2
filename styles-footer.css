@@ -8,13 +8,60 @@
     --second-font-family: "DM Sans";
   }
   
-
-  
-  
-
-  
   
   /* Футтер */
+     @media (max-width:700px){
+      
+      footer{
+        height: 100px;
+        padding: 10px 17px;
+      }
+      
+      
+      .contact{
+        margin-bottom: 10px;
+      }
+      .contact a{
+        font-size: 14px;
+        padding: 4px 11px;
+      }
+      .social-links a{
+        font-size: 16px;
+        margin-right: 5px;
+      }
+      
+      .arrow .fa-arrow-up{
+        font-size: 16px;
+        margin: 5px 0 0 17px;
+      }
+     
+     }
+  @media (min-width:701px) and (max-width:915px){
+
+    footer{
+      height: 150px;
+      padding: 20px 34px;
+    }
+    
+    
+    .contact{
+      margin-bottom: 15px;
+    }
+    .contact a{
+      font-size: 16px;
+      padding: 8px 23px;
+    }
+    .social-links a{
+      font-size: 18px;
+      margin-right: 10px;
+    }
+    
+    .arrow .fa-arrow-up{
+      font-size: 18px;
+      margin: 10px 0 0 34px;
+    }
+
+  }
   footer{
     width: 100%;
     height: 180px;
@@ -67,7 +114,6 @@
   }
     .copyright{
         text-align: center;
-        /* margin-bottom: 30px; */
         color: var(--second-color);
   
     }

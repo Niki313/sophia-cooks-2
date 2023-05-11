@@ -21,8 +21,34 @@
         margin: 0 auto;
         
     }
+    .menu-item{
+      padding-top: 20px;
   }
- 
+.menu a{
+  font-size: 14px;
+}
+  }
+  @media (min-width:701px) and (max-width:915px){
+    .menu{
+      height: 90px;
+      padding: 0 15px 0 0px;
+      margin: 0 auto;
+      text-align: center;
+      
+    }
+    .logo{
+        width: 90px;
+        margin: 0 auto;
+        
+    }
+    .menu-item{
+      padding-top: 30px;
+  }
+.menu a{
+  font-size: 20px;
+}
+
+  }
   .menu{
       height: 110px;
       padding: 0 20px 0 0px;
